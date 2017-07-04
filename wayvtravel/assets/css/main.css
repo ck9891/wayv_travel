@@ -1,0 +1,89 @@
+/*
+Name: Main
+Author: Cameron Farquharson
+
+##################################
+Navigation
+1. Typography
+2. Navigation Menu
+3. Site Wide
+4. Home Page Related
+##################################
+ */
+
+/*
+========================
+1. Typography
+========================
+*/
+h1, h2 {
+	font-size: 40px;
+	font-family: 'Lato', sans-serif;
+}
+.how h2 {
+	color: #f15f25;
+	text-align: center;
+}
+/*
+========================
+2. Navigation Menu
+========================
+*/
+.navbar {
+	background-color: #f15f25;
+}
+
+/* Here's the new CSS to add... */
+.admin-bar .navbar-fixed-top { top:46px; @media screen and (min-width:782px) { top:32px; } }
+
+/*
+========================
+3. Site Wide
+Colours: 
+
+Clear Water Blue: #a8cdd2
+Sunset Orange: #f15f25;
+========================
+
+
+ /*
+========================
+4. Home Page Related
+========================
+ */
+ #hero {
+ 	padding-top: 50px;
+ 	background-color: #999;
+ 	min-height: 500px;
+ 	border-bottom: 30px solid #f1dbbc;
+ 	box-shadow: 0 4px 2px -2px gray;
+ }
+ .hero-heading {
+ 	text-align: center;
+ }
+ .hero-heading span {
+ 	color: #a8cdd2;
+ }
+ .how {
+ 	background: #eee;
+ }
+ .how-cols {
+ 	border-bottom: 30px solid #f1dbbc;
+ 	box-shadow: 0 4px 2px -2px gray;
+ 	text-align: center;
+ }
+ .stops {
+ 	height: 400px;
+ 	background: blue;
+ 	border-bottom: 30px solid #f1dbbc;
+ 	box-shadow: 0 4px 2px -2px gray;
+
+ }
+ #pledge {
+ 	height: 400px;
+ 	border-bottom: 30px solid #f1dbbc;
+ 	box-shadow: 0 4px 2px -2px gray;
+ }
+ .row.pledge {
+ 	background-color: #f15f25;
+ }
